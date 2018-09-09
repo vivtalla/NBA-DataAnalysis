@@ -1,0 +1,22 @@
+This file will be used to document the process and results for the "Jimmy Wrangler, Data Explorer"
+assignment for EECS 731. To start off, I selected my industry to be the NBA as I am a huge NBA
+fan and would like to learn how to leverage Data Science to derive NBA insights. I got my three data
+sets from various locations. Firstly, I went to FiveThirtyEight's datasets and found their NBA_ELO data set.
+This is their metric they use to determine how succesful an NBA team is, and has data evaluating teams since the start of the NBA.
+On Kaggle I found a data set called Season_Stats, that has all NBA players stats.
+
+After downloading the files, I loaded the NBA_ELO data set into a python data frame in a Jupyter Notebook. As I never used Jupyter
+notebooks before, I followed a tutorial from data quest on using python data frames. After I got familiar with the environment,
+I then started looking at the data to see if it needed to be cleaned or transformed. The older NBA Stats on there, specifically the ones
+before 1990, had a lot of missing data as data wasn't recorded as well back then. Additionally, I am more interested in assessing stats
+of the modern NBA, so I learned how to remove the data that came before the 2000. Next I looked at the second data set, and loaded it
+the same way. Since I am interested in exploring the modern NBA, I removed rows of players who's stats were recorded before 2000. The data
+in the data frame also had an unnecessary column that just listed what row it was again, so I removed that column.
+
+From there I looked at the two data sets to see how they could be combined for further analysis. I thought about combining the two data sets by the year,
+but there were hundreds of player stats per year, so combining the data sets that way proved to be futile. I did a horizontal concatenation of the two data
+sets my placing them on top of one another into a single data set. This didn't seem too valuable, so I decided to create a new notebook and explore Season_Stats
+versus NBA Player Salary.
+
+The documentation of the process for the next notebook can be found as markdown cells in the notebook "NBAAnalysis-SeasonStatsVsSalary
+"
