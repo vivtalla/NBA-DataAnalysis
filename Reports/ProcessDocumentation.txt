@@ -20,3 +20,8 @@ versus NBA Player Salary.
 
 The documentation of the process for the next notebook can be found as markdown cells in the notebook "NBAAnalysis-SeasonStatsVsSalary
 "
+
+Results:
+
+After combining the two data frames and creating many visualizations, I found some interesting relationships between the two data sets. For further analysis on the
+results of combining the Data Sets, check the markdown cells of the "NBAAnalysis-SeasonStatsVsSalary" jupyter Notebook.
